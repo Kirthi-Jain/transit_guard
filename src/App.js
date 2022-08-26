@@ -6,6 +6,7 @@ import AboutUS from "./Components/AboutUS";
 import ContactUs from "./Components/ContactUs";
 import Footer from "./Components/Footer";
 import ViewPlans from './Components/ViewPlans';
+import Error from "./Components/Error";
 import './index.css';
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
         <Route path="/transit_guard/aboutUs" element={<AboutUS />} />
         <Route path="/transit_guard/viewPlans" element={<ViewPlans />} />
         <Route path="/transit_guard/contactUs" element={<ContactUs />} />
+        <Route path = "*" element={<Error/>}/>
       </Routes>
     <Footer />
   </BrowserRouter>
