@@ -1,0 +1,41 @@
+.person-wrapper {
+  margin-bottom: 2em;
+}
+
+.benefits {
+  width: 30%;
+  height: 60%;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.header-image {
+  height: 600px;
+  width: 80%;
+  padding-left: 2em;
+  padding-right: 2em;
+  object-fit: "cover";
+}
+.about-profile-pic {
+  margin-left: 20%;
+  width: 50%;
+  height: 80%;
+}
+
+
+.summary {
+  padding-left: 0;
+}
+
+
+.viewPlans {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  -webkit-filter: blur(70px); /* Safari 6.0 - 9.0 */
+  filter: blur(70px);
+}
