@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/transit_guard/static/css/main.2689aa43.css",
-    "main.js": "/transit_guard/static/js/main.0bbe96a1.js",
+    "main.js": "/transit_guard/static/js/main.b60be627.js",
     "static/media/MatteWhite.jpg": "/transit_guard/static/media/MatteWhite.287eab0ca4051001c0f3.jpg",
     "static/media/R (1).jpg": "/transit_guard/static/media/R (1).f75673284719d6b72cef.jpg",
     "static/media/BackGround.jpg": "/transit_guard/static/media/BackGround.259f3d7bb1cb12d350a6.jpg",
@@ -13,6 +13,7 @@
     "static/media/newin.jpg": "/transit_guard/static/media/newin.83f81ab9ba4db1f228ec.jpg",
     "static/media/Car.jpg": "/transit_guard/static/media/Car.927869e1895a51f353de.jpg",
     "static/media/Hero-HF-Deluxe-i3S-5.jpg": "/transit_guard/static/media/Hero-HF-Deluxe-i3S-5.9e38665b239aa6784908.jpg",
+    "static/media/invalid.jpg": "/transit_guard/static/media/invalid.6909f6e73cf6ea80ea14.jpg",
     "static/media/3.jpg": "/transit_guard/static/media/3.0b7bb784263bd8aa37b0.jpg",
     "static/media/BIke.jpg": "/transit_guard/static/media/BIke.a2cf9c608bd0082d4856.jpg",
     "static/media/Tata.jpg": "/transit_guard/static/media/Tata.baf5a7cf1d2e2c2abe16.jpg",
@@ -29,10 +30,10 @@
     "static/media/revicons.woff": "/transit_guard/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/transit_guard/index.html",
     "main.2689aa43.css.map": "/transit_guard/static/css/main.2689aa43.css.map",
-    "main.0bbe96a1.js.map": "/transit_guard/static/js/main.0bbe96a1.js.map"
+    "main.b60be627.js.map": "/transit_guard/static/js/main.b60be627.js.map"
   },
   "entrypoints": [
     "static/css/main.2689aa43.css",
-    "static/js/main.0bbe96a1.js"
+    "static/js/main.b60be627.js"
   ]
 }
