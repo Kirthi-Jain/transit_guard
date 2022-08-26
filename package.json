@@ -1,5 +1,6 @@
 {
   "name": "transit_guard",
+  "homepage": "https://Kirthi-Jain.github.io/transit_guard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "animate": "^1.0.0",
     "bootstrap": "^5.2.0",
     "formik": "^2.2.9",
+    "gh-pages": "^4.0.0",
     "jquery": "^3.6.0",
     "mdb-react-ui-kit": "^4.1.0",
     "mobile-detect": "^1.4.5",
@@ -23,6 +25,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

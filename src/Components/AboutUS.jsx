@@ -5,13 +5,13 @@ export default class AboutUS extends Component {
   render() {
     return (
       <>
-      <img className="viewPlans" src="assets/R.jpeg" alt="BackGround"/>
-        <Image src="assets/R.jpeg" className="header-image d-block w-100 mb-5"/>
+      <img className="viewPlans" src="/transit_guard/assets/R.jpeg" alt="BackGround"/>
+        <Image src="/transit_guard/assets/R.jpeg" className="header-image d-block w-100 mb-5"/>
         <Container fluid>
         <Row>
           <Col>
             <Image
-              src="assets/agent.jpg"
+              src="/transit_guard/assets/agent.jpg"
               className="about-profile-pic"
               roundedCircle
             />

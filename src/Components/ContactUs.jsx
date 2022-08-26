@@ -28,12 +28,12 @@ function ContactUs() {
   ]);
   return (
     <>
-     <img className="viewPlans" src="assets/ContactUs.jpg" alt ="BackGround"/>
+     <img className="viewPlans" src="/transit_guard/assets/ContactUs.jpg" alt ="BackGround"/>
       <Container fluid>
         <Row>
           <Col>
             <Image
-              src="assets/ContactUs.jpg"
+              src="/transit_guard/assets/ContactUs.jpg"
               style={{
                 height: 500,
                 width: "90%",

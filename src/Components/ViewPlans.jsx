@@ -19,7 +19,6 @@ import comprehensive from "../Images/policy/Corousel2.jpg";
 import three from "../Images/policy/3.jpg";
 import gieco from "../Images/logo/allstate.jpg";
 import allstate from "../Images/logo/gieco.png";
-import background from "../Images/BackGround.jpg";
 
 const responsive = {
   superLargeDesktop: {
@@ -76,7 +75,7 @@ const ViewPlans = () => {
     ]);
   return (
     <>
-    <img src={background} className="viewPlans" alt="background"/>
+    <img src={Background} className="viewPlans" alt="background"/>
       <Image
         src={Background}
         className="header-image d-block w-100 mb-5 mt-2"

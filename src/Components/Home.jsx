@@ -16,7 +16,7 @@ const Home = () => {
         textAlign: "left",
         margin: { marginRight: 800 },
         btn: {
-          to: "/aboutUs",
+          to: "/transit_guard/aboutUs",
           color: "light",
           text: "Learn more about Transit Guard",
         },
@@ -29,7 +29,7 @@ const Home = () => {
         textAlign: "left",
         margin: { marginRight: 900 },
         btn: {
-          to: "/viewPlans",
+          to: "/transit_guard/viewPlans",
           color: "dark",
           text: "Get quote",
         },
@@ -42,13 +42,13 @@ const Home = () => {
         textAlign: "left",
         margin: { marginRight: 900 },
         btn: {
-          to: "/contactUs",
+          to: "/transit_guard/contactUs",
           color: "dark",
           text: "Connect with us",
         },
       },
       {
-        src: "assets/Fraud.png",
+        src: "/transit_guard/assets/Fraud.png",
         h1: "Beware of fraudsters",
         p: "Insurance is subject to market risk, please read all scheme related documents carefully",
         color: "CaptionText",
@@ -120,7 +120,7 @@ const Home = () => {
           {cd?.map((i, j) => (
             <Col xs={12} sm={4} className="person-wrapper" key={j}>
               <Image
-                src={"assets/" + i.src}
+                src={"/transit_guard/assets/" + i.src}
                 roundedCircle
                 className="benefits"
               />
