@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/transit_guard/static/css/main.8ba2e492.css",
-    "main.js": "/transit_guard/static/js/main.f6035269.js",
-    "static/media/MatteWhite.jpg": "/transit_guard/static/media/MatteWhite.287eab0ca4051001c0f3.jpg",
-    "static/media/R (1).jpg": "/transit_guard/static/media/R (1).f75673284719d6b72cef.jpg",
+    "main.js": "/transit_guard/static/js/main.b213f96e.js",
     "static/media/Truck.jpg": "/transit_guard/static/media/Truck.a627494990a809b6fc89.jpg",
     "static/media/BackGround.jpg": "/transit_guard/static/media/BackGround.259f3d7bb1cb12d350a6.jpg",
     "static/media/nissan.jpg": "/transit_guard/static/media/nissan.b363c4886e9b56acd4ea.jpg",
     "static/media/Honda.jpeg": "/transit_guard/static/media/Honda.1a14eafbb4249fc16065.jpeg",
     "static/media/Corousel2.jpg": "/transit_guard/static/media/Corousel2.50cb8e363138f2b293ce.jpg",
-    "static/media/Maruti.jpg": "/transit_guard/static/media/Maruti.848a801c1a76e48bb9cc.jpg",
+    "static/media/R (1).jpg": "/transit_guard/static/media/R (1).088c80926918714f7bfb.jpg",
     "static/media/newin.jpg": "/transit_guard/static/media/newin.83f81ab9ba4db1f228ec.jpg",
     "static/media/BIke.jpg": "/transit_guard/static/media/BIke.49b28311a2c5167a2b14.jpg",
     "static/media/Car.jpg": "/transit_guard/static/media/Car.927869e1895a51f353de.jpg",
-    "static/media/Hero-HF-Deluxe-i3S-5.jpg": "/transit_guard/static/media/Hero-HF-Deluxe-i3S-5.9e38665b239aa6784908.jpg",
     "static/media/invalid.jpg": "/transit_guard/static/media/invalid.6909f6e73cf6ea80ea14.jpg",
     "static/media/3.jpg": "/transit_guard/static/media/3.0b7bb784263bd8aa37b0.jpg",
+    "static/media/MatteWhite.jpg": "/transit_guard/static/media/MatteWhite.cf8498fcb68a80af65c9.jpg",
     "static/media/Tata.jpg": "/transit_guard/static/media/Tata.baf5a7cf1d2e2c2abe16.jpg",
     "static/media/logo.jpg": "/transit_guard/static/media/logo.ecbc5d862035c181f3fe.jpg",
-    "static/media/R.jpg": "/transit_guard/static/media/R.c8c85483743a5943b233.jpg",
     "static/media/gieco.png": "/transit_guard/static/media/gieco.53fd2692d60e397c8bae.png",
+    "static/media/Maruti.jpg": "/transit_guard/static/media/Maruti.e54c0b06c3c12c19442e.jpg",
     "static/media/pb.png": "/transit_guard/static/media/pb.621fe586daf1a54a46a8.png",
+    "static/media/R.jpg": "/transit_guard/static/media/R.0d8134db79e414fe6924.jpg",
+    "static/media/Hero-HF-Deluxe-i3S-5.jpg": "/transit_guard/static/media/Hero-HF-Deluxe-i3S-5.084553bc31648ad3bfd9.jpg",
     "static/media/carwale.png": "/transit_guard/static/media/carwale.71be6aed8f120219d8cf.png",
     "static/media/BackGround1.jpg": "/transit_guard/static/media/BackGround1.109aca3f89d7e05fd590.jpg",
     "static/media/axa.jpg": "/transit_guard/static/media/axa.86c4e89648a1d940447a.jpg",
@@ -31,10 +31,10 @@
     "static/media/revicons.woff": "/transit_guard/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/transit_guard/index.html",
     "main.8ba2e492.css.map": "/transit_guard/static/css/main.8ba2e492.css.map",
-    "main.f6035269.js.map": "/transit_guard/static/js/main.f6035269.js.map"
+    "main.b213f96e.js.map": "/transit_guard/static/js/main.b213f96e.js.map"
   },
   "entrypoints": [
     "static/css/main.8ba2e492.css",
-    "static/js/main.f6035269.js"
+    "static/js/main.b213f96e.js"
   ]
 }
