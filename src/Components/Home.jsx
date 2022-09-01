@@ -152,11 +152,11 @@ const container = {
                   src={"/transit_guard/assets/" + i.src}
                   className="benefits mb-3"
                   alt={i.h5}
-                  initial={{ scale: 0.6, opacity: 0.5 }}
+                  initial={{ scale: 0.8, opacity: 0.5 }}
                   animate={{
                     rotateY: j !== 1 ? [0, 360] : 0,
                     scale: 1,
-                    y: j === 1 ? [35, -80] : 0,
+                    y: j === 1 ? [40, -90] : 0,
                     opacity: 1,
                   }}
                   transition={{
@@ -164,7 +164,7 @@ const container = {
                     duration: 3,
                     bounce: 0.5,
                     repeat: Infinity,
-                    repeatType: "reverse",
+                    repeatType: j === 1 ? "loop" : "reverse",
                   }}
                   variants={items}
                 />
