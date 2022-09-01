@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 import Figure from "react-bootstrap/Figure";
 import phone from "../Images/phone.png";
+import { motion } from "framer-motion";
 
 export default function TalkToExpert() {
   const [show, setShow] = useState(false),
@@ -11,15 +12,32 @@ export default function TalkToExpert() {
   return (
     <>
       <Figure>
-        <Figure.Image
-          className="mt-3 btn-outline-light"
-          onClick={() => setShow(true)}
-          width={50}
-          height={10}
-          alt="expert"
-          src={phone}
-        />
-        <Figure.Caption style={{color: "white"}}>Talk to expert?.</Figure.Caption>
+        <motion.div
+          animate={{ scale: 1.2 }}
+          transition={{ repeat: Infinity, repeatType: "reverse", duration: 1 }}
+        >
+          <Figure.Image
+            className="mt-3 btn-outline-light"
+            onClick={() => setShow(true)}
+            style={{
+              width: "50px",
+              height: "50px",
+              marginLeft: "15px",
+            }}
+            alt="expert"
+            src={phone}
+            roundedCircle
+          />
+        </motion.div>
+        <Figure.Caption
+          style={{
+            color: "white",
+            position: "absolute",
+            marginRight: "15px",
+          }}
+        >
+          Talk to expert?.
+        </Figure.Caption>
       </Figure>
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>

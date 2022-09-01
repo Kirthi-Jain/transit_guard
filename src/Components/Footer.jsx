@@ -45,9 +45,13 @@ export default function Footer() {
           </MDBCol>
           {alert && (
             <MDBCol size="fixed">
-            <Alert variant={alert} dismissible onClose={setAlert}>
-              <p>{alert === "outline-success" ? "User Subscribed" : "Enter Valid Email"}</p>
-            </Alert>
+              <Alert variant={alert} dismissible onClose={setAlert}>
+                <p>
+                  {alert === "outline-success"
+                    ? "User Subscribed"
+                    : "Enter Valid Email"}
+                </p>
+              </Alert>
             </MDBCol>
           )}
         </MDBRow>
