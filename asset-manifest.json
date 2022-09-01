@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/transit_guard/static/css/main.8ba2e492.css",
-    "main.js": "/transit_guard/static/js/main.b213f96e.js",
+    "main.css": "/transit_guard/static/css/main.7ba16064.css",
+    "main.js": "/transit_guard/static/js/main.607b2f86.js",
     "static/media/Truck.jpg": "/transit_guard/static/media/Truck.a627494990a809b6fc89.jpg",
-    "static/media/BackGround.jpg": "/transit_guard/static/media/BackGround.259f3d7bb1cb12d350a6.jpg",
+    "static/media/BackGround1.jpg": "/transit_guard/static/media/BackGround1.0cd0fa5d726cd123543b.jpg",
     "static/media/nissan.jpg": "/transit_guard/static/media/nissan.b363c4886e9b56acd4ea.jpg",
     "static/media/Honda.jpeg": "/transit_guard/static/media/Honda.1a14eafbb4249fc16065.jpeg",
     "static/media/Corousel2.jpg": "/transit_guard/static/media/Corousel2.50cb8e363138f2b293ce.jpg",
@@ -13,6 +13,7 @@
     "static/media/Car.jpg": "/transit_guard/static/media/Car.927869e1895a51f353de.jpg",
     "static/media/invalid.jpg": "/transit_guard/static/media/invalid.6909f6e73cf6ea80ea14.jpg",
     "static/media/3.jpg": "/transit_guard/static/media/3.0b7bb784263bd8aa37b0.jpg",
+    "static/media/BackGround.jpg": "/transit_guard/static/media/BackGround.749ff97aa5229c102ecf.jpg",
     "static/media/MatteWhite.jpg": "/transit_guard/static/media/MatteWhite.cf8498fcb68a80af65c9.jpg",
     "static/media/Tata.jpg": "/transit_guard/static/media/Tata.baf5a7cf1d2e2c2abe16.jpg",
     "static/media/logo.jpg": "/transit_guard/static/media/logo.ecbc5d862035c181f3fe.jpg",
@@ -22,7 +23,6 @@
     "static/media/R.jpg": "/transit_guard/static/media/R.0d8134db79e414fe6924.jpg",
     "static/media/Hero-HF-Deluxe-i3S-5.jpg": "/transit_guard/static/media/Hero-HF-Deluxe-i3S-5.084553bc31648ad3bfd9.jpg",
     "static/media/carwale.png": "/transit_guard/static/media/carwale.71be6aed8f120219d8cf.png",
-    "static/media/BackGround1.jpg": "/transit_guard/static/media/BackGround1.109aca3f89d7e05fd590.jpg",
     "static/media/axa.jpg": "/transit_guard/static/media/axa.86c4e89648a1d940447a.jpg",
     "static/media/phone.png": "/transit_guard/static/media/phone.e20d0cabf91e611cff03.png",
     "static/media/allstate.jpg": "/transit_guard/static/media/allstate.798de306c807fc0e6fab.jpg",
@@ -30,11 +30,11 @@
     "static/media/revicons.ttf": "/transit_guard/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/transit_guard/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/transit_guard/index.html",
-    "main.8ba2e492.css.map": "/transit_guard/static/css/main.8ba2e492.css.map",
-    "main.b213f96e.js.map": "/transit_guard/static/js/main.b213f96e.js.map"
+    "main.7ba16064.css.map": "/transit_guard/static/css/main.7ba16064.css.map",
+    "main.607b2f86.js.map": "/transit_guard/static/js/main.607b2f86.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ba2e492.css",
-    "static/js/main.b213f96e.js"
+    "static/css/main.7ba16064.css",
+    "static/js/main.607b2f86.js"
   ]
 }
