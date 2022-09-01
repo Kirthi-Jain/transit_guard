@@ -1,6 +1,6 @@
 {
   "name": "transit_guard",
-  "homepage": "http://localhost:3000/transit_guard",
+  "homepage": "https://Kirthi-Jain.github.io/transit_guard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,8 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
     "formik": "^2.2.9",
+    "framer-motion": "^7.2.1",
+    "gh-pages": "^4.0.0",
     "mdb-react-ui-kit": "^4.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
@@ -20,6 +22,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

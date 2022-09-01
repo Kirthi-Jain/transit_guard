@@ -156,12 +156,12 @@ const container = {
                   animate={{
                     rotateY: j !== 1 ? [0, 360] : 0,
                     scale: 1,
-                    y: j === 1 ? [30, -60] : 0,
+                    y: j === 1 ? [35, -80] : 0,
                     opacity: 1,
                   }}
                   transition={{
                     type: "spring",
-                    duration: 5,
+                    duration: 3,
                     bounce: 0.5,
                     repeat: Infinity,
                     repeatType: "reverse",
