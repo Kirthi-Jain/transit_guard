@@ -13,7 +13,7 @@ export default class AboutUS extends Component {
         />
         <motion.img
           src="/transit_guard/assets/R.jpeg"
-          className="header-image d-block w-100 mb-5"
+          className="header-image d-block w-99 mb-5 mt-3"
           alt="Main_Image"
           animate={{ scale: 1, opacity: 1 }}
           initial={{ scale: 0.5, opacity: 0.7 }}

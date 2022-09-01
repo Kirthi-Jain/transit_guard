@@ -159,7 +159,14 @@ const responsive = {
       ]);
     return (
       <motion.div variants={container} initial="hidden" animate="visible">
-        <img src={Background1} className="viewPlans" alt="background" />
+        <motion.img
+          src={Background1}
+          className="viewPlans1"
+          alt="background"
+          animate={{ scale: 1 }}
+          initial={{ scale: 0.8 }}
+          transition={{ type: "tween", duration: 1.5 }}
+        />
         <Carousel10>
           <Carousel10.Item>
             <Carousel10.Caption>
@@ -168,7 +175,6 @@ const responsive = {
                   textAlign: "left",
                   paddingBottom: 500,
                   marginLeft: 900,
-                  color: "ThreeDLightShadow",
                   fontFamily: "serif",
                 }}
                 transition={{
@@ -178,22 +184,26 @@ const responsive = {
                   repeatType: "reverse",
                   delay: 3,
                 }}
-                animate={{ y: [70, -5] }}
+                initial={{ y: 100 }}
+                animate={{
+                  y: 300,
+                  color: ["cadetblue"],
+                }}
               >
                 <h1>
                   Fun is like Insurance; the older it gets, the more it costs
                 </h1>
-                <p>- W.Shakespeare</p>
+                <p>~ W.Shakespeare</p>
               </motion.div>
             </Carousel10.Caption>
             <motion.img
               src={Background}
-              className="header-image d-block w-100 mb-5 mt-2"
+              className="header-image d-block w-80 mb-5 mt-2"
               alt="ThinkPlan"
               variants={items}
-              animate={{ scaleY: 1 }}
-              transition={{ duration: 2 }}
-              initial={{ rotate: 0, scaleY: 0.8 }}
+              animate={{ scale: 1, opacity: 1 }}
+              initial={{ scale: 0.5, opacity: 0.7 }}
+              transition={{ duration: 2, type: "tween" }}
             />
           </Carousel10.Item>
         </Carousel10>
