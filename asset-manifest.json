@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/transit_guard/static/css/main.7ba16064.css",
-    "main.js": "/transit_guard/static/js/main.607b2f86.js",
+    "main.css": "/transit_guard/static/css/main.6419e514.css",
+    "main.js": "/transit_guard/static/js/main.e32e1cfb.js",
     "static/media/Truck.jpg": "/transit_guard/static/media/Truck.a627494990a809b6fc89.jpg",
     "static/media/BackGround1.jpg": "/transit_guard/static/media/BackGround1.0cd0fa5d726cd123543b.jpg",
     "static/media/nissan.jpg": "/transit_guard/static/media/nissan.b363c4886e9b56acd4ea.jpg",
@@ -13,11 +13,11 @@
     "static/media/Car.jpg": "/transit_guard/static/media/Car.927869e1895a51f353de.jpg",
     "static/media/invalid.jpg": "/transit_guard/static/media/invalid.6909f6e73cf6ea80ea14.jpg",
     "static/media/3.jpg": "/transit_guard/static/media/3.0b7bb784263bd8aa37b0.jpg",
-    "static/media/BackGround.jpg": "/transit_guard/static/media/BackGround.749ff97aa5229c102ecf.jpg",
     "static/media/MatteWhite.jpg": "/transit_guard/static/media/MatteWhite.cf8498fcb68a80af65c9.jpg",
     "static/media/Tata.jpg": "/transit_guard/static/media/Tata.baf5a7cf1d2e2c2abe16.jpg",
     "static/media/logo.jpg": "/transit_guard/static/media/logo.ecbc5d862035c181f3fe.jpg",
     "static/media/gieco.png": "/transit_guard/static/media/gieco.53fd2692d60e397c8bae.png",
+    "static/media/BackGround.jpg": "/transit_guard/static/media/BackGround.245b99e707c1f7f37dec.jpg",
     "static/media/Maruti.jpg": "/transit_guard/static/media/Maruti.e54c0b06c3c12c19442e.jpg",
     "static/media/pb.png": "/transit_guard/static/media/pb.621fe586daf1a54a46a8.png",
     "static/media/R.jpg": "/transit_guard/static/media/R.0d8134db79e414fe6924.jpg",
@@ -30,11 +30,11 @@
     "static/media/revicons.ttf": "/transit_guard/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/transit_guard/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/transit_guard/index.html",
-    "main.7ba16064.css.map": "/transit_guard/static/css/main.7ba16064.css.map",
-    "main.607b2f86.js.map": "/transit_guard/static/js/main.607b2f86.js.map"
+    "main.6419e514.css.map": "/transit_guard/static/css/main.6419e514.css.map",
+    "main.e32e1cfb.js.map": "/transit_guard/static/js/main.e32e1cfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ba16064.css",
-    "static/js/main.607b2f86.js"
+    "static/css/main.6419e514.css",
+    "static/js/main.e32e1cfb.js"
   ]
 }
