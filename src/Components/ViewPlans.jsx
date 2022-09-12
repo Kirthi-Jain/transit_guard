@@ -164,8 +164,8 @@ const responsive = {
           className="viewPlans1"
           alt="background"
           animate={{ scale: 1 }}
-          initial={{ scale: 0.8 }}
-          transition={{ type: "tween", duration: 1.5 }}
+          initial={{ scale: 0 }}
+          transition={{ type: "tween", duration: 2 }}
         />
         <Carousel10>
           <Carousel10.Item>
@@ -201,9 +201,9 @@ const responsive = {
               className="header-image d-block w-80 mb-5 mt-2"
               alt="ThinkPlan"
               variants={items}
-              animate={{ scale: 1, opacity: 1 }}
-              initial={{ scale: 0.5, opacity: 0.7 }}
-              transition={{ duration: 2, type: "tween" }}
+              animate={{ scale: 1 }}
+              initial={{ scale: 0.6 }}
+              transition={{ duration: 6, type: "spring", bounce: 0.75 }}
             />
           </Carousel10.Item>
         </Carousel10>
@@ -250,10 +250,14 @@ const responsive = {
                         })
                       }
                     >
-                      {`${i.showQuotes ? `Hide` : `View`} Instant Quotes`}
+                      {(i.showQuotes ? `Hide` : `View`) + ` Instant quote`}
                     </motion.button>
                     {i.showQuotes && (
-                      <ul className="mt-2">
+                      <ul
+                        className="mt-2"
+                        animate={{ type: "tween" }}
+                        transition={{ duration: 3 }}
+                      >
                         {i.quotes.split("\n").map((m, n) => {
                           return <li key={n}>{m}</li>;
                         })}
